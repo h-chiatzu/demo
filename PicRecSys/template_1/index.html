@@ -52,16 +52,16 @@
 <body>
     <div id="app" class="container-fluid mt-5">
         <div class="btn-group sticky-top m-4 p-4 bg-light" role="group" aria-label="CSV selection">
-            <input type="radio" class="btn-check" name="csvOption" id="csv1" autocomplete="off" value="../output/result_1637張圖.csv" v-model="selectedCSV">
+            <input type="radio" class="btn-check" name="csvOption" id="csv1" autocomplete="off" value="output/result_1637張圖.csv" v-model="selectedCSV">
             <label class="btn btn-outline-primary" for="csv1">1637張圖</label>
 
-            <input type="radio" class="btn-check" name="csvOption" id="csv2" autocomplete="off" value="../output/result_2174張圖.csv" v-model="selectedCSV">
+            <input type="radio" class="btn-check" name="csvOption" id="csv2" autocomplete="off" value="output/result_2174張圖.csv" v-model="selectedCSV">
             <label class="btn btn-outline-primary" for="csv2">2174張圖</label>
 
-            <input type="radio" class="btn-check" name="csvOption" id="csv3" autocomplete="off" value="../output/result_3083張圖.csv" v-model="selectedCSV">
+            <input type="radio" class="btn-check" name="csvOption" id="csv3" autocomplete="off" value="output/result_3083張圖.csv" v-model="selectedCSV">
             <label class="btn btn-outline-primary" for="csv3">3083張圖</label>
 
-            <input type="radio" class="btn-check" name="csvOption" id="csv4" autocomplete="off" value="../output/result_5107張圖.csv" v-model="selectedCSV">
+            <input type="radio" class="btn-check" name="csvOption" id="csv4" autocomplete="off" value="output/result_5107張圖.csv" v-model="selectedCSV">
             <label class="btn btn-outline-primary" for="csv4">5107張圖</label>
         </div>
 
@@ -101,7 +101,7 @@
                 return {
                     rows: [],
                     loading: true,
-                    selectedCSV: '../output/result_5107張圖.csv'
+                    selectedCSV: 'output/result_5107張圖.csv'
                 };
             },
             watch: {
